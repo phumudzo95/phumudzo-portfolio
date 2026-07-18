@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#222225"/>
+      <stop offset="100%" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <circle cx="1" cy="1" r="0.4" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="600" fill="url(#g)"/>
+  <rect width="900" height="600" fill="url(#grain)"/>
+  <text x="50%" y="48%" font-family="Space Grotesk, sans-serif" font-size="54" fill="#FAFAF9" text-anchor="middle" opacity="0.9" font-weight="600">BEAUTY CAMPAIGN</text>
+  <text x="50%" y="58%" font-family="monospace" font-size="25" fill="#FAFAF9" text-anchor="middle" opacity="0.5">AFTER — final</text>
+</svg>

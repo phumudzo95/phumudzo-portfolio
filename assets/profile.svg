@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1d"/>
+      <stop offset="100%" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <circle cx="1" cy="1" r="0.4" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="800" fill="url(#g)"/>
+  <rect width="640" height="800" fill="url(#grain)"/>
+  <text x="50%" y="48%" font-family="Space Grotesk, sans-serif" font-size="58" fill="#FAFAF9" text-anchor="middle" opacity="0.9" font-weight="600">PHUMUDZO</text>
+  <text x="50%" y="58%" font-family="monospace" font-size="26" fill="#FAFAF9" text-anchor="middle" opacity="0.5">REPLACE — profile.jpg</text>
+</svg>
